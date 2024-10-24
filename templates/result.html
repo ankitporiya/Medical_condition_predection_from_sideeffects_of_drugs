@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prediction Result</title>
+
+    <style>
+        /* result.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Result styling */
+p {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+}
+
+strong {
+    color: #007bff; /* Highlight the prediction */
+}
+
+/* Link styling */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive styles */
+@media (max-width: 600px) {
+    p {
+        font-size: 1em; /* Adjust font size for smaller screens */
+    }
+}
+
+    </style>
+</head>
+<body>
+    <h1>Prediction Result</h1>
+    <p>The predicted medical condition is: <strong>{{ prediction }}</strong></p>
+    <a href="/">Go back</a>
+</body>
+</html>
